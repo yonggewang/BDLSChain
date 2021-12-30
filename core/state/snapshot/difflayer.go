@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/rlp"
 	"github.com/steakknife/bloomfilter"
 )
 

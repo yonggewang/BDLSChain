@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/p2p/enode"
+	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/p2p/enode"
 )
 
 // node represents a host on the network.

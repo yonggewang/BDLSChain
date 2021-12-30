@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/mclock"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

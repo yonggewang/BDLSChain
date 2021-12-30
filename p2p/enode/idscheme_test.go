@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/p2p/enr"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/p2p/enr"
+	"github.com/yonggewang/BDLShain/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

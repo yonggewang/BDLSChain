@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/accounts"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/event"
+	"github.com/yonggewang/BDLShain/accounts"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/event"
 )
 
 var testSigData = make([]byte, 32)

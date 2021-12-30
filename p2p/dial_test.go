@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common/mclock"
-	"github.com/yonggewang/BDLChain/internal/testlog"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/netutil"
+	"github.com/yonggewang/BDLShain/common/mclock"
+	"github.com/yonggewang/BDLShain/internal/testlog"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

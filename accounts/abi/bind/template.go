@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/yonggewang/BDLChain/accounts/abi"
+import "github.com/yonggewang/BDLShain/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -90,12 +90,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/yonggewang/BDLChain"
-	"github.com/yonggewang/BDLChain/accounts/abi"
-	"github.com/yonggewang/BDLChain/accounts/abi/bind"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/event"
+	ethereum "github.com/yonggewang/BDLShain"
+	"github.com/yonggewang/BDLShain/accounts/abi"
+	"github.com/yonggewang/BDLShain/accounts/abi/bind"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

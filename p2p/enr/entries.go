@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // Entry is implemented by known node record entry types.

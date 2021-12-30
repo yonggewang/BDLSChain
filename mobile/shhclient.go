@@ -19,8 +19,8 @@
 package geth
 
 import (
-	"github.com/yonggewang/BDLChain/whisper/shhclient"
-	whisper "github.com/yonggewang/BDLChain/whisper/whisperv6"
+	"github.com/yonggewang/BDLShain/whisper/shhclient"
+	whisper "github.com/yonggewang/BDLShain/whisper/whisperv6"
 )
 
 // WhisperClient provides access to the Ethereum APIs.

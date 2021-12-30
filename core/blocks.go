@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/yonggewang/BDLChain/common"
+import "github.com/yonggewang/BDLShain/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

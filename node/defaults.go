@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/p2p/nat"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/p2p/nat"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 const (

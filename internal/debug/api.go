@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // Handler is the global debugging handler.

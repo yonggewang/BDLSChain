@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

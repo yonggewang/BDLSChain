@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

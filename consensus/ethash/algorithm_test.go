@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

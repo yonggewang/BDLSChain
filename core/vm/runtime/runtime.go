@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/core/state"
-	"github.com/yonggewang/BDLChain/core/vm"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/core/state"
+	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/yonggewang/BDLChain/common"
+import "github.com/yonggewang/BDLShain/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

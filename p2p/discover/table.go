@@ -32,10 +32,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/netutil"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/netutil"
 )
 
 const (

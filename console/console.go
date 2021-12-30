@@ -29,10 +29,10 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/yonggewang/BDLChain/internal/jsre"
-	"github.com/yonggewang/BDLChain/internal/jsre/deps"
-	"github.com/yonggewang/BDLChain/internal/web3ext"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/internal/jsre"
+	"github.com/yonggewang/BDLShain/internal/jsre/deps"
+	"github.com/yonggewang/BDLShain/internal/web3ext"
+	"github.com/yonggewang/BDLShain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

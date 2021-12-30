@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

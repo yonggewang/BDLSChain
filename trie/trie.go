@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 var (

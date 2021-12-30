@@ -25,7 +25,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 type storedCredential struct {

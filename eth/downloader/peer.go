@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/event"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 const (

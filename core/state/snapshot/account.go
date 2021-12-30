@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // Account is a modified version of a state.Account, where the root is replaced

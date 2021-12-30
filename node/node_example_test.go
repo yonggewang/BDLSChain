@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yonggewang/BDLChain/node"
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

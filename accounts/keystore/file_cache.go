@@ -25,7 +25,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

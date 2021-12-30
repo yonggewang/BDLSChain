@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 var (

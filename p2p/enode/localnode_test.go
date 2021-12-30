@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/p2p/enr"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

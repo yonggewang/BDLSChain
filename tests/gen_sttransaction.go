@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/common/math"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/common/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

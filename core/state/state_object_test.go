@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

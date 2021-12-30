@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously

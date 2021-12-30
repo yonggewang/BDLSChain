@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/yonggewang/BDLChain/p2p"
+	"github.com/yonggewang/BDLShain/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/enr"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/enr"
 )
 
 var discard = Protocol{

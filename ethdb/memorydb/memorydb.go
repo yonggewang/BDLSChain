@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/ethdb"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/ethdb"
 )
 
 var (

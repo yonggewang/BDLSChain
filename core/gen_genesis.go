@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

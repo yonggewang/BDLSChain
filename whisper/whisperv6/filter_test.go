@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/crypto"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/crypto"
 )
 
 var seed int64

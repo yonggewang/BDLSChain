@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

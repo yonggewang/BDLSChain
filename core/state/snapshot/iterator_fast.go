@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/params"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

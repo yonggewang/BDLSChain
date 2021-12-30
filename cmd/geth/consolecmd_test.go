@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 const (

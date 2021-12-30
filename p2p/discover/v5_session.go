@@ -19,8 +19,8 @@ package discover
 import (
 	crand "crypto/rand"
 
-	"github.com/yonggewang/BDLChain/common/mclock"
-	"github.com/yonggewang/BDLChain/p2p/enode"
+	"github.com/yonggewang/BDLShain/common/mclock"
+	"github.com/yonggewang/BDLShain/p2p/enode"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

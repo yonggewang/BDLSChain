@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/enode"
 )
 
 var (

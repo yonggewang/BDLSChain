@@ -21,15 +21,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/accounts/abi"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/consensus"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/core/state"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/core/vm"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/accounts/abi"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/consensus"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/core/state"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 func TestDefaults(t *testing.T) {

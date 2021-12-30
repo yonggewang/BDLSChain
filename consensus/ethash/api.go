@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

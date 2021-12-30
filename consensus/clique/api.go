@@ -19,10 +19,10 @@ package clique
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/consensus"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/consensus"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

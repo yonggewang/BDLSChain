@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/yonggewang/BDLChain/metrics"
-	"github.com/yonggewang/BDLChain/metrics/prometheus"
+	"github.com/yonggewang/BDLShain/metrics"
+	"github.com/yonggewang/BDLShain/metrics/prometheus"
 )
 
 type exp struct {

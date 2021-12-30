@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

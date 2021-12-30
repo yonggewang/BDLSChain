@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/consensus/ethash"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/eth"
-	"github.com/yonggewang/BDLChain/node"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/consensus/ethash"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/eth"
+	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // Verify that Client implements the ethereum interfaces.

@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/yonggewang/BDLChain"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/rpc"
-	whisper "github.com/yonggewang/BDLChain/whisper/whisperv6"
+	"github.com/yonggewang/BDLShain"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/rpc"
+	whisper "github.com/yonggewang/BDLShain/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

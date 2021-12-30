@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/yonggewang/BDLChain/core/types"
+import "github.com/yonggewang/BDLShain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

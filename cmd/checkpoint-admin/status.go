@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/cmd/utils"
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/cmd/utils"
+	"github.com/yonggewang/BDLShain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

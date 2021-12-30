@@ -20,13 +20,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/core/vm"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // This test case is a repro of an annoying bug that took us forever to catch.

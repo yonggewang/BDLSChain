@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/consensus"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/state"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/eth/downloader"
-	"github.com/yonggewang/BDLChain/event"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/consensus"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/state"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/eth/downloader"
+	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // Backend wraps all methods required for mining.

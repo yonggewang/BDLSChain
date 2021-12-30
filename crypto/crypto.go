@@ -29,9 +29,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

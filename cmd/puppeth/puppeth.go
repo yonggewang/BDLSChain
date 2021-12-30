@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

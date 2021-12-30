@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

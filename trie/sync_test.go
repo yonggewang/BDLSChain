@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/ethdb/memorydb"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

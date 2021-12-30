@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/accounts/keystore"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	"github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/signer/core"
+	"github.com/yonggewang/BDLShain/accounts/keystore"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/signer/core"
 )
 
 var typesStandard = core.Types{

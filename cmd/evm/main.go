@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/yonggewang/BDLChain/cmd/utils"
+	"github.com/yonggewang/BDLShain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

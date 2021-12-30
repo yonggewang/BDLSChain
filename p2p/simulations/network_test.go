@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/node"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

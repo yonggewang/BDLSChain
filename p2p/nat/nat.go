@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

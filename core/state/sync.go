@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/ethdb"
-	"github.com/yonggewang/BDLChain/rlp"
-	"github.com/yonggewang/BDLChain/trie"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/ethdb"
+	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLShain/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/ethdb"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/rlp"
-	"github.com/yonggewang/BDLChain/trie"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/ethdb"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLShain/trie"
 )
 
 // journalGenerator is a disk layer entry containing the generator progress marker.

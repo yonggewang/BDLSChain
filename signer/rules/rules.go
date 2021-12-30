@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/yonggewang/BDLChain/internal/ethapi"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/signer/core"
-	"github.com/yonggewang/BDLChain/signer/rules/deps"
-	"github.com/yonggewang/BDLChain/signer/storage"
+	"github.com/yonggewang/BDLShain/internal/ethapi"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/signer/core"
+	"github.com/yonggewang/BDLShain/signer/rules/deps"
+	"github.com/yonggewang/BDLShain/signer/storage"
 )
 
 var (

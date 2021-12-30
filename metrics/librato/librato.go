@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

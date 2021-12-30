@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/ethdb"
+	"github.com/yonggewang/BDLShain/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

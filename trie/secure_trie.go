@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

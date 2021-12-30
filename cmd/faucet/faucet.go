@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/accounts"
-	"github.com/yonggewang/BDLChain/accounts/keystore"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/eth"
-	"github.com/yonggewang/BDLChain/eth/downloader"
-	"github.com/yonggewang/BDLChain/ethclient"
-	"github.com/yonggewang/BDLChain/ethstats"
-	"github.com/yonggewang/BDLChain/les"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/node"
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/p2p/discv5"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/nat"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/accounts"
+	"github.com/yonggewang/BDLShain/accounts/keystore"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/eth"
+	"github.com/yonggewang/BDLShain/eth/downloader"
+	"github.com/yonggewang/BDLShain/ethclient"
+	"github.com/yonggewang/BDLShain/ethstats"
+	"github.com/yonggewang/BDLShain/les"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/p2p/discv5"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/nat"
+	"github.com/yonggewang/BDLShain/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -470,7 +470,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/yonggewang/BDLChain/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/yonggewang/BDLShain/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

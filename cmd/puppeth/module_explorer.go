@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

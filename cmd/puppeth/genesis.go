@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/hexutil"
-	math2 "github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/consensus/ethash"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/hexutil"
+	math2 "github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/consensus/ethash"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

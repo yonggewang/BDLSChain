@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

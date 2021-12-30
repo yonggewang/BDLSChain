@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/les/utils"
+	"github.com/yonggewang/BDLShain/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

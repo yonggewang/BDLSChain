@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/common/math"
-	"github.com/yonggewang/BDLChain/core/vm"
+	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLShain/core/vm"
 )
 
 // Compiler contains information about the parsed source

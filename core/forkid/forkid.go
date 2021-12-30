@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 var (

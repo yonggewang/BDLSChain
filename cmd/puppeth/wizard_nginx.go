@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

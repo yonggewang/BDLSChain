@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

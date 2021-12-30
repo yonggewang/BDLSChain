@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common/math"
+	"github.com/yonggewang/BDLShain/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

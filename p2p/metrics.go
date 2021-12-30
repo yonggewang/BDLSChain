@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 const (

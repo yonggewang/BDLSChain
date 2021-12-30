@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/enr"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/enr"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 // NoopService is the service that does not do anything

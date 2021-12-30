@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/ethdb"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/ethdb"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/accounts/abi"
-	"github.com/yonggewang/BDLChain/accounts/abi/bind"
-	"github.com/yonggewang/BDLChain/accounts/keystore"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/accounts/abi"
+	"github.com/yonggewang/BDLShain/accounts/abi/bind"
+	"github.com/yonggewang/BDLShain/accounts/keystore"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

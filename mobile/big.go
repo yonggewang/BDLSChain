@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

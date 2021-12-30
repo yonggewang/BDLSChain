@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/yonggewang/BDLChain/core/state"
-	"github.com/yonggewang/BDLChain/core/vm"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/tests"
+	"github.com/yonggewang/BDLShain/core/state"
+	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

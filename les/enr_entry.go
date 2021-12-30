@@ -17,7 +17,7 @@
 package les
 
 import (
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

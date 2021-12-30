@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common/hexutil"
+	"github.com/yonggewang/BDLShain/common/hexutil"
 )
 
 type MyType [5]byte

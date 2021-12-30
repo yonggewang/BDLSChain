@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/common/prque"
-	"github.com/yonggewang/BDLChain/ethdb"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/common/prque"
+	"github.com/yonggewang/BDLShain/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

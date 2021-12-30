@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/core/asm"
+	"github.com/yonggewang/BDLShain/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

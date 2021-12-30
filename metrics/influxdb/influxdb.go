@@ -5,8 +5,8 @@ import (
 	uurl "net/url"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/metrics"
 	"github.com/influxdata/influxdb/client"
 )
 

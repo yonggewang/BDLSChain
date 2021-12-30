@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // Forks table defines supported forks and their chain config.

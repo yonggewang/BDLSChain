@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common/bitutil"
-	"github.com/yonggewang/BDLChain/crypto"
+	"github.com/yonggewang/BDLShain/common/bitutil"
+	"github.com/yonggewang/BDLShain/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

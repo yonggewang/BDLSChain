@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/event"
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/p2p"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

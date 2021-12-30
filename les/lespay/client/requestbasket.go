@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/yonggewang/BDLChain/les/utils"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/les/utils"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

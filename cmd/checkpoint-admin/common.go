@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/yonggewang/BDLChain/accounts"
-	"github.com/yonggewang/BDLChain/accounts/abi/bind"
-	"github.com/yonggewang/BDLChain/accounts/external"
-	"github.com/yonggewang/BDLChain/cmd/utils"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/contracts/checkpointoracle"
-	"github.com/yonggewang/BDLChain/ethclient"
-	"github.com/yonggewang/BDLChain/params"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/accounts"
+	"github.com/yonggewang/BDLShain/accounts/abi/bind"
+	"github.com/yonggewang/BDLShain/accounts/external"
+	"github.com/yonggewang/BDLShain/cmd/utils"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/contracts/checkpointoracle"
+	"github.com/yonggewang/BDLShain/ethclient"
+	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLShain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

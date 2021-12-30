@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/crypto"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

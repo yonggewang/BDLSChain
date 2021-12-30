@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 func init() {

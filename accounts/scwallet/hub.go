@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/accounts"
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/event"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/accounts"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLShain/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

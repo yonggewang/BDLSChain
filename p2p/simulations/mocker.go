@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
 )
 
 //a map of mocker names to its function

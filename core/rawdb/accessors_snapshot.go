@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/ethdb"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/ethdb"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // ReadSnapshotRoot retrieves the root of the block whose state is contained in

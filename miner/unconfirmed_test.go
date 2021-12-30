@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

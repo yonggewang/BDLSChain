@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

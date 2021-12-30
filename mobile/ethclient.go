@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/yonggewang/BDLChain/core/types"
-	"github.com/yonggewang/BDLChain/ethclient"
+	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLShain/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

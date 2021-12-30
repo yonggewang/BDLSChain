@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 var (

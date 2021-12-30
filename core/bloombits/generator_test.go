@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/core/types"
+	"github.com/yonggewang/BDLShain/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

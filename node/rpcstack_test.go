@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

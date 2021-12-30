@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/p2p/enode"
-	"github.com/yonggewang/BDLChain/p2p/enr"
+	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLShain/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

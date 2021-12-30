@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLChain/les/utils"
+	"github.com/yonggewang/BDLShain/les/utils"
 )
 
 func TestTransition(t *testing.T) {

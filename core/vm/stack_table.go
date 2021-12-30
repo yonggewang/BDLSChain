@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 func minSwapStack(n int) int {

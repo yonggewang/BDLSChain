@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/consensus/ethash"
-	"github.com/yonggewang/BDLChain/core/rawdb"
-	"github.com/yonggewang/BDLChain/core/vm"
-	"github.com/yonggewang/BDLChain/params"
+	"github.com/yonggewang/BDLShain/consensus/ethash"
+	"github.com/yonggewang/BDLShain/core/rawdb"
+	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLShain/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

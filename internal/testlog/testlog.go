@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/crypto"
-	"github.com/yonggewang/BDLChain/params"
-	"github.com/yonggewang/BDLChain/rlp"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLShain/rlp"
 )
 
 func TestLegacyReceiptDecoding(t *testing.T) {

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 var (

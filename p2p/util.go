@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/yonggewang/BDLChain/common/mclock"
+	"github.com/yonggewang/BDLShain/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

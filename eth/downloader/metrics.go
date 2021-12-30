@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/yonggewang/BDLChain/metrics"
+	"github.com/yonggewang/BDLShain/metrics"
 )
 
 var (

@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/yonggewang/BDLChain/common"
-	"github.com/yonggewang/BDLChain/ethdb/memorydb"
-	"github.com/yonggewang/BDLChain/trie"
+	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLShain/ethdb/memorydb"
+	"github.com/yonggewang/BDLShain/trie"
 )
 
 // randTest performs random trie operations.

@@ -1,4 +1,4 @@
-module github.com/yonggewang/BDLChain
+module github.com/yonggewang/BDLShain
 
 go 1.14
 

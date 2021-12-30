@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/yonggewang/BDLChain/cmd/utils"
-	"github.com/yonggewang/BDLChain/console"
-	"github.com/yonggewang/BDLChain/node"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/cmd/utils"
+	"github.com/yonggewang/BDLShain/console"
+	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLShain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -43,7 +43,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/yonggewang/BDLChain/wiki/JavaScript-Console.`,
+See https://github.com/yonggewang/BDLShain/wiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -56,7 +56,7 @@ See https://github.com/yonggewang/BDLChain/wiki/JavaScript-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/yonggewang/BDLChain/wiki/JavaScript-Console.
+See https://github.com/yonggewang/BDLShain/wiki/JavaScript-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -69,7 +69,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/yonggewang/BDLChain/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/yonggewang/BDLShain/wiki/JavaScript-Console`,
 	}
 )
 

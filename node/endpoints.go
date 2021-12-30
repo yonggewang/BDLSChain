@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/yonggewang/BDLChain/log"
-	"github.com/yonggewang/BDLChain/rpc"
+	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLShain/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

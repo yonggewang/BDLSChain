@@ -25,7 +25,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/yonggewang/BDLChain/common"
+	"github.com/yonggewang/BDLShain/common"
 )
 
 const (

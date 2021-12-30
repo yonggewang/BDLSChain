@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLChain/accounts"
-	"github.com/yonggewang/BDLChain/event"
-	"github.com/yonggewang/BDLChain/log"
+	"github.com/yonggewang/BDLShain/accounts"
+	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLShain/log"
 	"github.com/karalabe/usb"
 )
 
