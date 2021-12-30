@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/p2p/simulations/adapters"
 )
 
 var errTimedOut = errors.New("timed out")

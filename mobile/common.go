@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
 )
 
 func ExampleNewNode() {

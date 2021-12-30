@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/yonggewang/BDLShain/accounts"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/math"
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/accounts"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/math"
+	"github.com/yonggewang/BDLSChain/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/yonggewang/BDLShain/issues." +
+				"https://github.com/yonggewang/BDLSChain/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

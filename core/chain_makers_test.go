@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/core/vm"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/core/vm"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 func ExampleGenerateChain() {

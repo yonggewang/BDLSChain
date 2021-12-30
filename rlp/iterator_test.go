@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

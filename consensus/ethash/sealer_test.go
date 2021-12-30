@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/internal/testlog"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/internal/testlog"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

@@ -19,9 +19,9 @@ package whisperv6
 import (
 	"bytes"
 
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/rlp"
-	"github.com/yonggewang/BDLShain/whisper/whisperv6"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/rlp"
+	"github.com/yonggewang/BDLSChain/whisper/whisperv6"
 )
 
 type MessageParams struct {

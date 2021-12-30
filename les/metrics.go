@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/yonggewang/BDLShain/metrics"
-	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLSChain/metrics"
+	"github.com/yonggewang/BDLSChain/p2p"
 )
 
 var (

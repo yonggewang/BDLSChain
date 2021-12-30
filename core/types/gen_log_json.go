@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 var _ = (*logMarshaling)(nil)

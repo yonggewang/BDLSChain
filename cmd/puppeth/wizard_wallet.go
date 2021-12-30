@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

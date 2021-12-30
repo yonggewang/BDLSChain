@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

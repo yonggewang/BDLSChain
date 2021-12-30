@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/les/utils"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/common/math"
-	"github.com/yonggewang/BDLShain/crypto/secp256k1"
+	"github.com/yonggewang/BDLSChain/common/math"
+	"github.com/yonggewang/BDLSChain/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

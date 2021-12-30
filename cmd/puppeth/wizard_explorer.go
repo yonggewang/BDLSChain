@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

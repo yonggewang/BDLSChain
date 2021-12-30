@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts/keystore"
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/accounts/keystore"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 // Tests that the account management snippets work correctly.

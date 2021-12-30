@@ -25,10 +25,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/params"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/params"
+	"github.com/yonggewang/BDLSChain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

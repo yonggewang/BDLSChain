@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/eth/downloader"
-	"github.com/yonggewang/BDLShain/eth/gasprice"
-	"github.com/yonggewang/BDLShain/miner"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/eth/downloader"
+	"github.com/yonggewang/BDLSChain/eth/gasprice"
+	"github.com/yonggewang/BDLSChain/miner"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/p2p"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 var (

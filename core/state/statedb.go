@@ -24,14 +24,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/state/snapshot"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/metrics"
-	"github.com/yonggewang/BDLShain/rlp"
-	"github.com/yonggewang/BDLShain/trie"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/state/snapshot"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/metrics"
+	"github.com/yonggewang/BDLSChain/rlp"
+	"github.com/yonggewang/BDLSChain/trie"
 )
 
 type revision struct {
@@ -651,7 +651,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/yonggewang/BDLShain/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/yonggewang/BDLSChain/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

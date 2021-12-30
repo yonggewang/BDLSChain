@@ -19,7 +19,7 @@ package rpc
 import (
 	"net"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

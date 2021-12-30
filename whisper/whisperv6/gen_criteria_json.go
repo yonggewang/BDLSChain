@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

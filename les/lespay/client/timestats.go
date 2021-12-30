@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/yonggewang/BDLShain/les/utils"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/les/utils"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 const (

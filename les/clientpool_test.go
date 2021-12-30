@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 func TestClientPoolL10C100Free(t *testing.T) {

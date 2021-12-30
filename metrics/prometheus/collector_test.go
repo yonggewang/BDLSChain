@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/metrics"
+	"github.com/yonggewang/BDLSChain/metrics"
 )
 
 func TestMain(m *testing.M) {

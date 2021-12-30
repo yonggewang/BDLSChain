@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

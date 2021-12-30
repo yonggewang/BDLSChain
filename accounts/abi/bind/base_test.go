@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLShain"
-	"github.com/yonggewang/BDLShain/accounts/abi"
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/hexutil"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain"
+	"github.com/yonggewang/BDLSChain/accounts/abi"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 type mockCaller struct {

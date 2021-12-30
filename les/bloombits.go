@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/bitutil"
-	"github.com/yonggewang/BDLShain/light"
+	"github.com/yonggewang/BDLSChain/common/bitutil"
+	"github.com/yonggewang/BDLSChain/light"
 )
 
 const (

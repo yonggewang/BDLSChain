@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/consensus"
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/core/state"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/core/vm"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/ethdb"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/consensus"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/core/state"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/core/vm"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/ethdb"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // So we can deterministically seed different blockchains
@@ -1423,7 +1423,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/yonggewang/BDLShain/pull/15941
+// https://github.com/yonggewang/BDLSChain/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1684,8 +1684,8 @@ func TestIncompleteAncientReceiptChainInsertion(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/yonggewang/BDLShain/issues/18977
-//  - https://github.com/yonggewang/BDLShain/pull/18988
+//  - https://github.com/yonggewang/BDLSChain/issues/18977
+//  - https://github.com/yonggewang/BDLSChain/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

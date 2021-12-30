@@ -27,8 +27,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/p2p/enr"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/p2p/enr"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

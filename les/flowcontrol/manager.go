@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/common/prque"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

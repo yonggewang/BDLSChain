@@ -32,14 +32,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/node"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/p2p/simulations"
-	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
-	"github.com/yonggewang/BDLShain/rlp"
-	"github.com/yonggewang/BDLShain/rpc"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/node"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/p2p/simulations"
+	"github.com/yonggewang/BDLSChain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLSChain/rlp"
+	"github.com/yonggewang/BDLSChain/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

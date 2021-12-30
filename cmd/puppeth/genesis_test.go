@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/yonggewang/BDLShain/core"
+	"github.com/yonggewang/BDLSChain/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.

@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLSChain/core/vm"
 )
 
 func TestState(t *testing.T) {

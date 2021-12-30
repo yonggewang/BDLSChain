@@ -20,7 +20,7 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

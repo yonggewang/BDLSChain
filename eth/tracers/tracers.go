@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/yonggewang/BDLShain/eth/tracers/internal/tracers"
+	"github.com/yonggewang/BDLSChain/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

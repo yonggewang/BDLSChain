@@ -22,8 +22,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

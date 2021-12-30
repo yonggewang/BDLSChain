@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

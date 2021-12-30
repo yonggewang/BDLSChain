@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/p2p/discv5"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/p2p/discv5"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

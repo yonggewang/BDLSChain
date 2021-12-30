@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts/keystore"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/accounts/keystore"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

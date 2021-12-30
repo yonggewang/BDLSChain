@@ -22,12 +22,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/eth/downloader"
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/eth/downloader"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 const (

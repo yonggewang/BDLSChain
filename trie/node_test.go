@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

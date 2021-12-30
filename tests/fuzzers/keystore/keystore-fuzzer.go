@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/yonggewang/BDLShain/accounts/keystore"
+	"github.com/yonggewang/BDLSChain/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

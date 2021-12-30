@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

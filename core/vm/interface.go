@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

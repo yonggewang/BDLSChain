@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/yonggewang/BDLShain"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/event"
+	ethereum "github.com/yonggewang/BDLSChain"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/event"
 	"golang.org/x/crypto/sha3"
 )
 

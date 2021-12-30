@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/internal/testlog"
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/p2p/enr"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/internal/testlog"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/p2p/enr"
 	"golang.org/x/crypto/sha3"
 )
 

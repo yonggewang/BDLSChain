@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/contracts/checkpointoracle/contract"
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/contracts/checkpointoracle/contract"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

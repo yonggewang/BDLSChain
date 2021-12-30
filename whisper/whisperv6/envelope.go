@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/crypto/ecies"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto/ecies"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

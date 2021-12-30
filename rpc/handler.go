@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

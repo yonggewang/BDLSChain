@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/consensus"
-	"github.com/yonggewang/BDLShain/core/state"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/consensus"
+	"github.com/yonggewang/BDLSChain/core/state"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

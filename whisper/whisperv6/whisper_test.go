@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

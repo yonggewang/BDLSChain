@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/crypto/ecies"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto/ecies"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

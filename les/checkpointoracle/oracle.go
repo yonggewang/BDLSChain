@@ -23,12 +23,12 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/contracts/checkpointoracle"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/contracts/checkpointoracle"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

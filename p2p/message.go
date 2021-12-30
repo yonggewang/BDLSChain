@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yonggewang/BDLShain/event"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/event"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 // Msg defines the structure of a p2p message.

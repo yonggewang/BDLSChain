@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

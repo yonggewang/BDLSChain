@@ -19,8 +19,8 @@ package les
 import (
 	"errors"
 
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 type ulc struct {

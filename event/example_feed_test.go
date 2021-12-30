@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLSChain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

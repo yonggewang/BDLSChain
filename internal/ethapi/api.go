@@ -25,25 +25,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts"
-	"github.com/yonggewang/BDLShain/accounts/abi"
-	"github.com/yonggewang/BDLShain/accounts/keystore"
-	"github.com/yonggewang/BDLShain/accounts/scwallet"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/hexutil"
-	"github.com/yonggewang/BDLShain/common/math"
-	"github.com/yonggewang/BDLShain/consensus/clique"
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/core/vm"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/params"
-	"github.com/yonggewang/BDLShain/rlp"
-	"github.com/yonggewang/BDLShain/rpc"
+	"github.com/yonggewang/BDLSChain/accounts"
+	"github.com/yonggewang/BDLSChain/accounts/abi"
+	"github.com/yonggewang/BDLSChain/accounts/keystore"
+	"github.com/yonggewang/BDLSChain/accounts/scwallet"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common/math"
+	"github.com/yonggewang/BDLSChain/consensus/clique"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/core/vm"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/params"
+	"github.com/yonggewang/BDLSChain/rlp"
+	"github.com/yonggewang/BDLSChain/rpc"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tyler-smith/go-bip39"
 )
@@ -409,7 +409,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args SendTxArgs
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/yonggewang/BDLShain/wiki/Management-APIs#personal_sign
+// https://github.com/yonggewang/BDLSChain/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -437,7 +437,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/yonggewang/BDLShain/wiki/Management-APIs#personal_ecRecover
+// https://github.com/yonggewang/BDLSChain/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

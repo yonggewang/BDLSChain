@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 var (

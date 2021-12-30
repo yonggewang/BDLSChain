@@ -26,9 +26,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 var (

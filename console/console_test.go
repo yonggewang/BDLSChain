@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/eth"
-	"github.com/yonggewang/BDLShain/internal/jsre"
-	"github.com/yonggewang/BDLShain/miner"
-	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/eth"
+	"github.com/yonggewang/BDLSChain/internal/jsre"
+	"github.com/yonggewang/BDLSChain/miner"
+	"github.com/yonggewang/BDLSChain/node"
 )
 
 const (

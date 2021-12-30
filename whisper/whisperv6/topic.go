@@ -19,7 +19,7 @@
 package whisperv6
 
 import (
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

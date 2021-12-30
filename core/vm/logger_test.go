@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/state"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/state"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 type dummyContractRef struct {

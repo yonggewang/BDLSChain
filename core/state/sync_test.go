@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/ethdb"
-	"github.com/yonggewang/BDLShain/ethdb/memorydb"
-	"github.com/yonggewang/BDLShain/trie"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/ethdb"
+	"github.com/yonggewang/BDLSChain/ethdb/memorydb"
+	"github.com/yonggewang/BDLSChain/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

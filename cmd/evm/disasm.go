@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/core/asm"
+	"github.com/yonggewang/BDLSChain/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

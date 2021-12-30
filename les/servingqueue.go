@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/common/prque"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

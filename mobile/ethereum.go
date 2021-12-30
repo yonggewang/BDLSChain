@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/yonggewang/BDLShain"
-	"github.com/yonggewang/BDLShain/common"
+	ethereum "github.com/yonggewang/BDLSChain"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // Subscription represents an event subscription where events are

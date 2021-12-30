@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
-	whisper "github.com/yonggewang/BDLShain/whisper/whisperv6"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
+	whisper "github.com/yonggewang/BDLSChain/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLSChain/core/vm"
 )
 
 func TestVM(t *testing.T) {

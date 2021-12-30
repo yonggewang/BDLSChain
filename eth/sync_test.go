@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/eth/downloader"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/eth/downloader"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 func TestFastSyncDisabling63(t *testing.T) { testFastSyncDisabling(t, 63) }

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/rpc"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

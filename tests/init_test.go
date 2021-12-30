@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // Command line flags to configure the interpreters.

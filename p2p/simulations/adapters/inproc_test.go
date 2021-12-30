@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/p2p/simulations/pipes"
+	"github.com/yonggewang/BDLSChain/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

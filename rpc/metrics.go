@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/metrics"
+	"github.com/yonggewang/BDLSChain/metrics"
 )
 
 var (

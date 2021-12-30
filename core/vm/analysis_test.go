@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

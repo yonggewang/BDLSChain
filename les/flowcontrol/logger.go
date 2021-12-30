@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
+	"github.com/yonggewang/BDLSChain/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

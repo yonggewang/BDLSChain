@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/ethdb"
-	"github.com/yonggewang/BDLShain/ethdb/dbtest"
+	"github.com/yonggewang/BDLSChain/ethdb"
+	"github.com/yonggewang/BDLSChain/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

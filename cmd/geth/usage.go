@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/yonggewang/BDLShain/cmd/utils"
-	"github.com/yonggewang/BDLShain/internal/debug"
+	"github.com/yonggewang/BDLSChain/cmd/utils"
+	"github.com/yonggewang/BDLSChain/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

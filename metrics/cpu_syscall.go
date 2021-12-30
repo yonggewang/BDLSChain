@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

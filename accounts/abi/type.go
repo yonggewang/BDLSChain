@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // Type enumerator

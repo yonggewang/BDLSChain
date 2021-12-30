@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // ContractRef is a reference to the contract's backing object

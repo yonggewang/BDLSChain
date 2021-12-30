@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

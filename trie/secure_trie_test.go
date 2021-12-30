@@ -22,9 +22,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/ethdb/memorydb"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/ethdb/memorydb"
 )
 
 func newEmptySecure() *SecureTrie {

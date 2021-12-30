@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/yonggewang/BDLShain/core/state"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLSChain/core/state"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

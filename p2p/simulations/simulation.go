@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

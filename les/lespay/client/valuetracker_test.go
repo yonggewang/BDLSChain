@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/ethdb/memorydb"
-	"github.com/yonggewang/BDLShain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/ethdb/memorydb"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
 
-	"github.com/yonggewang/BDLShain/les/utils"
+	"github.com/yonggewang/BDLSChain/les/utils"
 )
 
 const (

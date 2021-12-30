@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/yonggewang/BDLShain/log"
-	"github.com/yonggewang/BDLShain/metrics"
-	"github.com/yonggewang/BDLShain/metrics/exp"
+	"github.com/yonggewang/BDLSChain/log"
+	"github.com/yonggewang/BDLSChain/metrics"
+	"github.com/yonggewang/BDLSChain/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

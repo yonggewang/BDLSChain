@@ -16,7 +16,7 @@
 
 package discv5
 
-import "github.com/yonggewang/BDLShain/metrics"
+import "github.com/yonggewang/BDLSChain/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/node"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/p2p/simulations/adapters"
+	"github.com/yonggewang/BDLSChain/node"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

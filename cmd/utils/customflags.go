@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/common/math"
+	"github.com/yonggewang/BDLSChain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/types"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

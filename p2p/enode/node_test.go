@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/yonggewang/BDLShain/p2p/enr"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/p2p/enr"
+	"github.com/yonggewang/BDLSChain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // EnableEIP enables the given EIP on the config.

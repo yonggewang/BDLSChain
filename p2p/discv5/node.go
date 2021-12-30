@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/crypto"
 )
 
 // Node represents a host on the network.

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/rpc"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

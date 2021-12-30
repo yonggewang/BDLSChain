@@ -21,11 +21,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/rawdb"
-	"github.com/yonggewang/BDLShain/eth/downloader"
-	"github.com/yonggewang/BDLShain/light"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/rawdb"
+	"github.com/yonggewang/BDLSChain/eth/downloader"
+	"github.com/yonggewang/BDLSChain/light"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

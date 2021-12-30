@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/accounts/abi"
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/accounts/abi"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

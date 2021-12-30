@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/yonggewang/BDLShain"
-	"github.com/yonggewang/BDLShain/event"
-	"github.com/yonggewang/BDLShain/rpc"
+	ethereum "github.com/yonggewang/BDLSChain"
+	"github.com/yonggewang/BDLSChain/event"
+	"github.com/yonggewang/BDLSChain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

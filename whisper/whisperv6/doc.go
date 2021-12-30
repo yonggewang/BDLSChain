@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto"
 )
 
 // Whisper protocol parameters

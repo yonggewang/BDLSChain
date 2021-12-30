@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/accounts/abi/bind/backends"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/core/types"
-	"github.com/yonggewang/BDLShain/crypto"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind/backends"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/core/types"
+	"github.com/yonggewang/BDLSChain/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

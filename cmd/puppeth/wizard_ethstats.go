@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

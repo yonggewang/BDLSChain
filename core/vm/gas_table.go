@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/math"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/math"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

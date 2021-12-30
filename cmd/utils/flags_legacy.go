@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/eth"
-	"github.com/yonggewang/BDLShain/node"
+	"github.com/yonggewang/BDLSChain/eth"
+	"github.com/yonggewang/BDLSChain/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

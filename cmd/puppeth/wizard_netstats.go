@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/log"
 	"github.com/olekukonko/tablewriter"
 )
 

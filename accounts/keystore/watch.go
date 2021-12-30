@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 	"github.com/rjeczalik/notify"
 )
 

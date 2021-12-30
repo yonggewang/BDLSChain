@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 func init() {

@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // hashes is a helper to implement sort.Interface.

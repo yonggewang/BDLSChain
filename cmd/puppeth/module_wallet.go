@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

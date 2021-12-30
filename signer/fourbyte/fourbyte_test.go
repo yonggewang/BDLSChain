@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/accounts/abi"
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/accounts/abi"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

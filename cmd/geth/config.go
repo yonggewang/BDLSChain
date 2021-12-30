@@ -26,11 +26,11 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/yonggewang/BDLShain/cmd/utils"
-	"github.com/yonggewang/BDLShain/eth"
-	"github.com/yonggewang/BDLShain/node"
-	"github.com/yonggewang/BDLShain/params"
-	whisper "github.com/yonggewang/BDLShain/whisper/whisperv6"
+	"github.com/yonggewang/BDLSChain/cmd/utils"
+	"github.com/yonggewang/BDLSChain/eth"
+	"github.com/yonggewang/BDLSChain/node"
+	"github.com/yonggewang/BDLSChain/params"
+	whisper "github.com/yonggewang/BDLSChain/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

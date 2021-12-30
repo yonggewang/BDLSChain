@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 	"github.com/stretchr/testify/require"
 )
 

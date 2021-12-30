@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/light"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/light"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -182,7 +182,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/yonggewang/BDLShain/issues/20097 for more detail.
+	// See https://github.com/yonggewang/BDLSChain/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

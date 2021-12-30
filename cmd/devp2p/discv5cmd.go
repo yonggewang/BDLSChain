@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/p2p/discover"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

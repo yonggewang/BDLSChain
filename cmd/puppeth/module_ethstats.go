@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

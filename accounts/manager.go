@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/event"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/event"
 )
 
 // Config contains the settings of the global account manager.

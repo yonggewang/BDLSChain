@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/mclock"
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/common/mclock"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 const (

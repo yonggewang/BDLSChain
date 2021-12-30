@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLSChain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

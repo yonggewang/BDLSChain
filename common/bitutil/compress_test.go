@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

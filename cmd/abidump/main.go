@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/signer/core"
-	"github.com/yonggewang/BDLShain/signer/fourbyte"
+	"github.com/yonggewang/BDLSChain/signer/core"
+	"github.com/yonggewang/BDLSChain/signer/fourbyte"
 )
 
 func init() {

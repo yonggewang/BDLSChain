@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/core/vm"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

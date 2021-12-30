@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/accounts/abi/bind"
-	"github.com/yonggewang/BDLShain/accounts/abi/bind/backends"
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/contracts/checkpointoracle/contract"
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind"
+	"github.com/yonggewang/BDLSChain/accounts/abi/bind/backends"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/contracts/checkpointoracle/contract"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 var (

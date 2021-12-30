@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yonggewang/BDLShain/cmd/utils"
+	"github.com/yonggewang/BDLSChain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

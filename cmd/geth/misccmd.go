@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yonggewang/BDLShain/cmd/utils"
-	"github.com/yonggewang/BDLShain/consensus/ethash"
-	"github.com/yonggewang/BDLShain/eth"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/cmd/utils"
+	"github.com/yonggewang/BDLSChain/consensus/ethash"
+	"github.com/yonggewang/BDLSChain/eth"
+	"github.com/yonggewang/BDLSChain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

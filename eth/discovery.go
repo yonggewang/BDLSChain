@@ -17,12 +17,12 @@
 package eth
 
 import (
-	"github.com/yonggewang/BDLShain/core"
-	"github.com/yonggewang/BDLShain/core/forkid"
-	"github.com/yonggewang/BDLShain/p2p"
-	"github.com/yonggewang/BDLShain/p2p/dnsdisc"
-	"github.com/yonggewang/BDLShain/p2p/enode"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/core"
+	"github.com/yonggewang/BDLSChain/core/forkid"
+	"github.com/yonggewang/BDLSChain/p2p"
+	"github.com/yonggewang/BDLSChain/p2p/dnsdisc"
+	"github.com/yonggewang/BDLSChain/p2p/enode"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

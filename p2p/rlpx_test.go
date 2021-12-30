@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/crypto/ecies"
-	"github.com/yonggewang/BDLShain/p2p/simulations/pipes"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto/ecies"
+	"github.com/yonggewang/BDLSChain/p2p/simulations/pipes"
+	"github.com/yonggewang/BDLSChain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

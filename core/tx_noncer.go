@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/core/state"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

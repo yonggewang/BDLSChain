@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/yonggewang/BDLShain/accounts"
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/accounts"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 var (

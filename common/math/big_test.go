@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

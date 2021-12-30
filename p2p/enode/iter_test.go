@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yonggewang/BDLShain/p2p/enr"
+	"github.com/yonggewang/BDLSChain/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

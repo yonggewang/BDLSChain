@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/common/math"
-	"github.com/yonggewang/BDLShain/crypto"
-	"github.com/yonggewang/BDLShain/crypto/blake2b"
-	"github.com/yonggewang/BDLShain/crypto/bn256"
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/common/math"
+	"github.com/yonggewang/BDLSChain/crypto"
+	"github.com/yonggewang/BDLSChain/crypto/blake2b"
+	"github.com/yonggewang/BDLSChain/crypto/bn256"
+	"github.com/yonggewang/BDLSChain/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

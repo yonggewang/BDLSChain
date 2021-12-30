@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/yonggewang/BDLShain/params"
+	"github.com/yonggewang/BDLSChain/params"
 )
 
 func TestTransaction(t *testing.T) {

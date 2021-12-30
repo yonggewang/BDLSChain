@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/log"
+	"github.com/yonggewang/BDLSChain/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

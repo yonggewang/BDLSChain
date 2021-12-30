@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/yonggewang/BDLShain/common"
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/common"
+	"github.com/yonggewang/BDLSChain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

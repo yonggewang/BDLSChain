@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/yonggewang/BDLShain/rlp"
+	"github.com/yonggewang/BDLSChain/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

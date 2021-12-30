@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/yonggewang/BDLShain/ethdb"
+	"github.com/yonggewang/BDLSChain/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

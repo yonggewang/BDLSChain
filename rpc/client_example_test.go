@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yonggewang/BDLShain/common/hexutil"
-	"github.com/yonggewang/BDLShain/rpc"
+	"github.com/yonggewang/BDLSChain/common/hexutil"
+	"github.com/yonggewang/BDLSChain/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

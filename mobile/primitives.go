@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/yonggewang/BDLShain/common"
+	"github.com/yonggewang/BDLSChain/common"
 )
 
 // Strings represents s slice of strs.
