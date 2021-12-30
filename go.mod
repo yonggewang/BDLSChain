@@ -1,4 +1,4 @@
-module github.com/yonggewang/BDLChain
+module github.com/yonggewang/BDLSChain
 
 go 1.14
 
