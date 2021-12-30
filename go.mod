@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 module github.com/yonggewang/BDLShain
+=======
+module github.com/yonggewang/BDLSChain
+>>>>>>> 9fa5ce8e8d0bac8364a1a92a017cad585e4e0061
 
 go 1.14
 
