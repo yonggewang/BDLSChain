@@ -4,6 +4,13 @@ Most functionalities of this client is similar to the Ethereum golang implementa
 
 ## Building the source
 
+Download the source as
+```
+git clone https://github.com/yonggewang/BDLSChain.git
+cd BDLSChain/cmd/geth
+go build .
+```
+
 Building `geth` requires both a Go (version 1.13 or later) and a C compiler. You can install
 them using your favourite package manager. Once the dependencies are installed, run
 
@@ -15,6 +22,46 @@ or, to build the full suite of utilities:
 
 ```shell
 make all
+```
+
+Run the testnet as:
+```
+./geth --testnet --rpc console
+OR
+./geth --testnet --verbosity 5 --rpc console
+
+eth.blockNumber
+eth.getBlock(xxxx)
+
+Exercise the following commands:
+
+./geth account new
+./geth --testnet account new
+./geth --testnet --unlock 16Fc08d853febedC8A15FC437D9760540f6F36b8  stake delegate --stake.account 16Fc08d853febedC8A15FC437D9760540f6F36b8 --stake.from 40000 --stake.to 50000
+./geth --testnet --mine -unlock 0x16Fc08d853febedC8A15FC437D9760540f6F36b8 console
+
+
+./geth --testnet --mine --unlock 0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA console
+
+eth.sendTransaction({from:"0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA",to: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", value: "1888888888888888888888", data:"0xe880824e20829c40a0110bc382740be7bf0e60f65c843ffda6b9daf4034ad7cb85f887e7698340020d"})
+
+./geth --testnet --unlock  F94cE232Aaa69A8285B5b93a68adb019B17Bc5BA  stake delegate --stake.account  F94cE232Aaa69A8285B5b93a68adb019B17Bc5BA --stake.from 40000 --stake.to 60000
+
+eth.sendTransaction({from: "0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA",to: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", value: "1888888888888888888888", data:"0xe880829c4082ea60a0939d6e7e39bd320ff535e9cb29b9c4afe415d1de8134aa4812958e00e1af40ac"})
+
+
+ ./geth --testnet --mine --unlock 0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA console 
+
+eth.getBalance("0x16Fc08d853febedC8A15FC437D9760540f6F36b8")
+
+eth.getBalance("0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA")
+
+
+./geth --testnet stake redeem
+
+eth.sendTransaction({from:"0xF94cE232Aaa69A8285B5b93a68adb019B17Bc5BA",to: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", value: "0", data:"0xe581ff8080a00000000000000000000000000000000000000000000000000000000000000000"})
+
+
 ```
 
 ## Executables
