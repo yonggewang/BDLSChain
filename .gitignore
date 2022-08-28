@@ -15,3 +15,4 @@
 # vendor/
 #
 cmd/spa/spa
+.DS_Store
