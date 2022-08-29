@@ -38,7 +38,7 @@ import (
 
 var (
 	// Base Quorum is the quorum to make sure blockchain can generate new blocks
-	// while no other validators are running.
+	// when no other validators are running.
 	BaseQuorum = []common.Address{
 		common.HexToAddress("f2580391fe8a83366ed550de4e45af1714d74b8d"),
 		common.HexToAddress("066aaff9e575302365b7862dcebd4a5a65f75f5f"),
