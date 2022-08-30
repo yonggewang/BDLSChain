@@ -34,7 +34,7 @@ import (
 )
 
 var (
-	// Proposer's SPA reward
+	// Proposer's BDLS reward
 	ProposerReward       = new(big.Int).Mul(big.NewInt(1000), big.NewInt(params.Ether))
 	TotalValidatorReward = new(big.Int).Mul(big.NewInt(3000), big.NewInt(params.Ether))
 	// Account to deposit gas fee

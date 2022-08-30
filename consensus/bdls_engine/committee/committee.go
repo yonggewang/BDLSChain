@@ -55,7 +55,7 @@ var (
 	E1 = big.NewInt(5)
 	// BFT committee expectationA
 	E2 = big.NewInt(50)
-	// unit of staking SPA
+	// unit of staking BDLS
 	StakingUnit = new(big.Int).Mul(big.NewInt(1000), big.NewInt(params.Ether))
 	// transfering tokens to this address will be specially treated
 	StakingAddress = common.HexToAddress("0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")

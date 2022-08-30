@@ -720,7 +720,7 @@ var (
 
 	BDLSStakeAmountFlag = cli.IntFlag{
 		Name:  "stake.amount",
-		Usage: "the amount SPA to stake, unit = 1 SPA",
+		Usage: "the amount BDLS to stake, unit = 1 BDLS",
 	}
 
 	BDLSStakeAccountFlag = cli.StringFlag{

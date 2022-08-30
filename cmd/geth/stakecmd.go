@@ -55,7 +55,7 @@ var (
 		Subcommands: []cli.Command{
 			{
 				Name:   "delegate",
-				Usage:  "generate data to delegate SPA",
+				Usage:  "generate data to delegate BDLS",
 				Action: utils.MigrateFlags(delegate),
 				Flags: []cli.Flag{
 					utils.BDLSStakeFromFlag,
@@ -64,17 +64,17 @@ var (
 					utils.BDLSStakeAccountFlag,
 				},
 				Description: `
-Generate data.payload to delegate SPA via eth.sendTransaction()`,
+Generate data.payload to delegate BDLS via eth.sendTransaction()`,
 			},
 			{
 				Name:   "redeem",
-				Usage:  "generate data to redeem SPA",
+				Usage:  "generate data to redeem BDLS",
 				Action: utils.MigrateFlags(redeem),
 				Flags: []cli.Flag{
 					utils.BDLSStakeAccountFlag,
 				},
 				Description: `
-Generate data.payload to redeem SPA via eth.sendTransaction()`,
+Generate data.payload to redeem BDLS via eth.sendTransaction()`,
 			},
 		},
 	}
