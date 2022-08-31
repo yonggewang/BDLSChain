@@ -46,7 +46,7 @@ import (
 )
 
 const (
-	clientIdentifier = "spa" // Client identifier to advertise over the network
+	clientIdentifier = "bdls" // Client identifier to advertise over the network
 )
 
 var (
