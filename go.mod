@@ -3,6 +3,7 @@ module github.com/yonggewang/BDLSChain
 go 1.14
 
 require (
+	github.com/Azure/azure-storage-blob-go v0.15.0 // indirect
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/VictoriaMetrics/fastcache v1.5.7
 	github.com/allegro/bigcache v1.2.1 // indirect
@@ -28,16 +29,14 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.4.1
 	github.com/golang/snappy v0.0.1
-	github.com/google/uuid v1.1.1 // indirect
 	github.com/gorilla/websocket v1.4.2
-	github.com/graph-gophers/graphql-go v1.3.0 
+	github.com/graph-gophers/graphql-go v1.3.0
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/huin/goupnp v1.0.0
 	github.com/influxdata/influxdb v1.2.3-0.20180221223340-01288bdb0883
 	github.com/jackpal/go-nat-pmp v1.0.2
 	github.com/julienschmidt/httprouter v1.2.0
 	github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356
-	github.com/kr/pretty v0.2.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.4
 	github.com/mattn/go-isatty v0.0.8
@@ -58,10 +57,10 @@ require (
 	github.com/tyler-smith/go-bip39 v1.0.1-0.20181017060643-dbb3b84ba2ef
 	github.com/wsddn/go-ecdh v0.0.0-20161211032359-48726bab9208
 	github.com/yonggewang/bdls v1.3.9
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
-	golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f
-	golang.org/x/text v0.3.3
+	golang.org/x/sys v0.0.0-20210423082822-04245dca01da
+	golang.org/x/text v0.3.6
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	google.golang.org/protobuf v1.24.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
