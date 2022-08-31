@@ -33,7 +33,7 @@ require (
 	github.com/golang/snappy v0.0.1
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/gorilla/websocket v1.4.2
-	github.com/graph-gophers/graphql-go v0.0.0-20191115155744-f33e81362277
+	github.com/graph-gophers/graphql-go v1.3.0 
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/huin/goupnp v1.0.0
 	github.com/influxdata/influxdb v1.2.3-0.20180221223340-01288bdb0883
