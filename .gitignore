@@ -16,3 +16,4 @@
 #
 cmd/bdls/bdls
 .DS_Store
+cmd/geth/geth
