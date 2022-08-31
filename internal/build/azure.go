@@ -60,12 +60,13 @@ func AzureBlobstoreUpload(path string, name string, config AzureBlobstoreConfig)
 	}
 	defer in.Close()
 
-	blockblob := container.NewBlockBlobClient(name)
+	blockblob, err := container.NewBlockBlobClient(name)
 	_, err = blockblob.Upload(context.Background(), in, nil)
 	return err
 }
 
 // AzureBlobstoreList lists all the files contained within an azure blobstore.
+//https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/storage/azblob
 func AzureBlobstoreList(config AzureBlobstoreConfig) ([]*azblob.BlobItemInternal, error) {
 	// Create an authenticated client against the Azure cloud
 	credential, err := azblob.NewSharedKeyCredential(config.Account, config.Token)
@@ -78,13 +79,13 @@ func AzureBlobstoreList(config AzureBlobstoreConfig) ([]*azblob.BlobItemInternal
 		return nil, err
 	}
 	var maxResults int32 = 5000
-	pager := container.ListBlobsFlat(&azblob.ContainerListBlobFlatSegmentOptions{
-		Maxresults: &maxResults,
+	pager := container.ListBlobsFlat(&azblob.ContainerListBlobsFlatOptions{
+		MaxResults: &maxResults,
 	})
 	var allBlobs []*azblob.BlobItemInternal
 	for pager.NextPage(context.Background()) {
 		res := pager.PageResponse()
-		allBlobs = append(allBlobs, res.ContainerListBlobFlatSegmentResult.Segment.BlobItems...)
+		allBlobs = append(allBlobs, res.containerClientListBlobFlatSegmentResult.ListBlobsFlatSegmentResponse...)
 	}
 	return allBlobs, pager.Err()
 }
@@ -110,8 +111,11 @@ func AzureBlobstoreDelete(config AzureBlobstoreConfig, blobs []*azblob.BlobItemI
 	}
 	// Iterate over the blobs and delete them
 	for _, blob := range blobs {
-		blockblob := container.NewBlockBlobClient(*blob.Name)
-		if _, err := blockblob.Delete(context.Background(), &azblob.DeleteBlobOptions{}); err != nil {
+		blockblob, err := container.NewBlockBlobClient(*blob.Name)
+		if err !=nil {
+			return err
+		}
+		if _, err := blockblob.Delete(context.Background(), &azblob.BlobDeleteOptions{}); err != nil {
 			return err
 		}
 		fmt.Printf("deleted  %s (%s)\n", *blob.Name, blob.Properties.LastModified)

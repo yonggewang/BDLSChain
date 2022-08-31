@@ -3,7 +3,6 @@ module github.com/yonggewang/BDLSChain
 go 1.19
 
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v0.4.1
 	github.com/VictoriaMetrics/fastcache v1.5.7
 	github.com/aristanetworks/goarista v0.0.0-20190607111240-52c2a7864a08
 	github.com/aws/aws-sdk-go v1.25.48
@@ -60,6 +59,7 @@ require (
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v0.4.1 // indirect
 	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
