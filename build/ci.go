@@ -1080,7 +1080,7 @@ func xgoTool(args []string) *exec.Cmd {
 func doPurge(cmdline []string) {
 	var (
 		store = flag.String("store", "", `Destination from where to purge archives (usually "gethstore/builds")`)
-	//	limit = flag.Int("days", 30, `Age threshold above which to delete unstable archives`)
+		limit = flag.Int("days", 30, `Age threshold above which to delete unstable archives`)
 	)
 	flag.CommandLine.Parse(cmdline)
 
@@ -1098,28 +1098,31 @@ func doPurge(cmdline []string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// Iterate over the blobs, collect and sort all unstable builds 
-	// TODO: YONGGE WANG... the following part need to be fixed
-	//for i := 0; i < len(blobs); i++ {
-	//	if !strings.Contains(blobs[i].Name, "unstable") {
-	//		blobs = append(blobs[:i], blobs[i+1:]...)
-	//		i--
-	//	}
-	//}
-	//for i := 0; i < len(blobs); i++ {
-	//	for j := i + 1; j < len(blobs); j++ {
-	//		if blobs[i].Properties.LastModified.After(blobs[j].Properties.LastModified) {
-	//			blobs[i], blobs[j] = blobs[j], blobs[i]
-	//		}
-	//	}
-	//}
+	fmt.Printf("Found %d blobs\n", len(blobs))
+
+	// Iterate over the blobs, collect and sort all unstable builds
+	for i := 0; i < len(blobs); i++ {
+		if !strings.Contains(*blobs[i].Name, "unstable") {
+			blobs = append(blobs[:i], blobs[i+1:]...)
+			i--
+		}
+	}
+	for i := 0; i < len(blobs); i++ {
+		for j := i + 1; j < len(blobs); j++ {
+			if blobs[i].Properties.LastModified.After(*blobs[j].Properties.LastModified) {
+				blobs[i], blobs[j] = blobs[j], blobs[i]
+			}
+		}
+	}
 	// Filter out all archives more recent that the given threshold
-	//for i, blob := range blobs {
-	//	if time.Since(blob.Properties.LastModified) < time.Duration(*limit)*24*time.Hour {
-	//		blobs = blobs[:i]
-	//		break
-	//	}
-	//}
+	for i, blob := range blobs {
+		if time.Since(*blob.Properties.LastModified) < time.Duration(*limit)*24*time.Hour {
+			blobs = blobs[:i]
+			break
+		}
+	}
+	fmt.Printf("Deleting %d blobs\n", len(blobs))
+
 	// Delete all marked as such and return
 	if err := build.AzureBlobstoreDelete(auth, blobs); err != nil {
 		log.Fatal(err)
