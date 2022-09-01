@@ -1106,7 +1106,7 @@ func doPurge(cmdline []string) {
 			blobs = append(blobs[:i], blobs[i+1:]...)
 			i--
 		}
-	}
+	} 
 	for i := 0; i < len(blobs); i++ {
 		for j := i + 1; j < len(blobs); j++ {
 			if blobs[i].Properties.LastModified.After(*blobs[j].Properties.LastModified) {
