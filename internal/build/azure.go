@@ -88,7 +88,7 @@ func AzureBlobstoreList(config AzureBlobstoreConfig) ([]*azblob.BlobItemInternal
 		//allBlobs = append(allBlobs, res.ContainerListBlobFlatSegmentResult.Segment.BlobItems...)
 		//allBlobs = append(allBlobs, res.containerClientListBlobFlatSegmentResult...)
 		fmt.Println(res)//TODO: YONGGE WANG [needs to fix here]
-		allBlobs = nil
+		allBlobs = nil//TODO: to be deleted
 	}
 	return allBlobs, pager.Err()
 }
