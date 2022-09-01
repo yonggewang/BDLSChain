@@ -17,3 +17,17 @@
 cmd/bdls/bdls
 .DS_Store
 cmd/geth/geth
+build/bin/abidump
+build/bin/abigen
+build/bin/bootnode
+build/bin/rlpdump
+build/bin/p2psim
+build/bin/examples
+build/bin/evm
+build/bin/ethkey
+build/bin/checkpoint-admin
+build/bin/clef
+build/bin/devp2p
+build/bin/faucet
+build/bin/puppeth
+build/bin/wnode
