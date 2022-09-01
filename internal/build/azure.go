@@ -85,7 +85,10 @@ func AzureBlobstoreList(config AzureBlobstoreConfig) ([]*azblob.BlobItemInternal
 	var allBlobs []*azblob.BlobItemInternal
 	for pager.NextPage(context.Background()) {
 		res := pager.PageResponse()
-		allBlobs = append(allBlobs, res.containerClientListBlobFlatSegmentResult.ListBlobsFlatSegmentResponse...)
+		//allBlobs = append(allBlobs, res.ContainerListBlobFlatSegmentResult.Segment.BlobItems...)
+		//allBlobs = append(allBlobs, res.containerClientListBlobFlatSegmentResult...)
+		fmt.Println(res)//TODO: YONGGE WANG [needs to fix here]
+		allBlobs = nil
 	}
 	return allBlobs, pager.Err()
 }
