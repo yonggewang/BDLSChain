@@ -25,10 +25,7 @@ var MainnetBootnodes = []string{}
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 // test network.
 var TestnetBootnodes = []string{
-	"enode://fa1c6b5c763775f40d5d7f83d73dbd36c7fb8d2782041bf531c49e9204e195af4feaaa406c063e373b1937ec5f4a38dd793048b607eeea4f3f850355042bc950@18.183.64.226:30303",
-	"enode://9277ce1ffb56c48c8577b34ca54343d365a6f0a0bfc5365d2c4b1948f20e17ed6f3273be95aac460afb0f79e99a6505e429872913792b547436078ff53156a02@54.168.60.62:30303",
-	"enode://61ac01c4ad8a9b63f284b54437681f32f38922d9f3499118aa6e1217fdfa98768cb449a2618b231c0e2e903b56ef2590fb40247d4acd0eb988cc82dc0ea4e0f7@54.249.196.162:30303",
-	"enode://163e06d54807c5327dff80cad281eaa24061e5d819e02353620a63ea9698d98932591c3041a010d9c54885f0986bf7fa793887ae067d838c327da63894e375bf@18.181.86.225:30303",
+	"enode://506b9a9fbe8f119b1ab2cc2d5e047e0b28126a44b67b1642420b7631d713ca058e4298eaf991db8e3505892120f5cf72fa48147b9823431e0d9fa63b49964af3@104.236.9.148:8009",
 }
 
 const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUDPE@"
@@ -36,6 +33,6 @@ const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUD
 // These DNS names provide bootstrap connectivity for public testnets and the mainnet.
 // See https://github.com/ethereum/discv4-dns-lists for more information.
 var KnownDNSNetworks = map[common.Hash]string{
-	MainnetGenesisHash: dnsPrefix + ".mainnet.bdls.io",
-	TestnetGenesisHash: dnsPrefix + "b01.testnet.bdls.io",
+	MainnetGenesisHash: dnsPrefix + "quantumca.org",
+	TestnetGenesisHash: dnsPrefix + "quantumca.org",
 }
