@@ -31,3 +31,4 @@ build/bin/devp2p
 build/bin/faucet
 build/bin/puppeth
 build/bin/wnode
+build/bin/geth
