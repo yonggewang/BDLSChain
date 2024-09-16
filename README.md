@@ -14,6 +14,8 @@ go build .
 Building `geth` requires both a Go (version 1.13 or later) and a C compiler. You can install
 them using your favourite package manager. Once the dependencies are installed, run
 
+```cd ../..
+
 ```shell
 make geth
 ```
